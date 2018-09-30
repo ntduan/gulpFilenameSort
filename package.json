@@ -1,22 +1,15 @@
 {
   "name": "gulp-filename-sort",
-  "version": "0.0.1",
-  "description": "gulp plugin",
+  "version": "0.0.2",
+  "license": "MIT",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "gulp plugin",
+  "author": {
+    "name": "aniiantt",
+    "email": "nsso@foxmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gynantimdt/gulpFilenameSort.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/gynantimdt/gulpFilenameSort/issues"
-  },
-  "homepage": "https://github.com/gynantimdt/gulpFilenameSort#readme",
-  "dependencies": {
-    "through": "^2.3.8"
+    "url": "git+https://github.com/aniiantt/gulpFilenameSort.git"
   }
 }
