@@ -2,7 +2,7 @@
   "name": "gulp-filename-sort",
   "version": "0.0.2",
   "license": "MIT",
-  "main": "index.js",
+  "main": "src/index.js",
   "description": "gulp plugin",
   "author": {
     "name": "aniiantt",
@@ -11,5 +11,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aniiantt/gulpFilenameSort.git"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "vinyl": "^2.2.0"
   }
 }
