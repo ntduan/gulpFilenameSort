@@ -10,9 +10,9 @@ module.exports = option => {
       const pre = option;
       const [baseA, baseB] = [basename(pathA), basename(pathB)]
       if (pre.includes(baseA) && !pre.includes(baseB)) {
-        return baseA;
+        return -1;
       } else if (!pre.includes(baseA) && pre.includes(baseB)) {
-        return baseB;
+        return 1;
       } else {
         return baseA.localeCompare(baseB);
       }
